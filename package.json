@@ -1,0 +1,25 @@
+{
+    "name": "contactbook-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "Nguyen Lam",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "mongodb": "^6.9.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.9.1",
+        "eslint": "^9.9.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-react": "^7.35.2",
+        "globals": "^15.9.0",
+        "nodemon": "^3.1.4",
+        "prettier": "^3.3.3"
+    }
+}
